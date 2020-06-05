@@ -1,0 +1,12 @@
+2020-06-05 15:15:59.574 [http-nio-8080-exec-7] DEBUG org.hibernate.SQL - select * from ( select userdto_jp0_.usr_id as usr_id1_0_, userdto_jp0_.usr_name as usr_name2_0_ from j_usr userdto_jp0_ order by userdto_jp0_.usr_id desc ) where rownum <= ?
+2020-06-05 15:15:59.648 [http-nio-8080-exec-7] DEBUG org.hibernate.SQL - select count(userdto_jp0_.usr_id) as col_0_0_ from j_usr userdto_jp0_
+2020-06-05 15:20:25.070 [http-nio-8080-exec-10] DEBUG org.hibernate.SQL - select * from ( select userdto_jp0_.usr_id as usr_id1_0_, userdto_jp0_.usr_name as usr_name2_0_ from j_usr userdto_jp0_ order by userdto_jp0_.usr_id desc ) where rownum <= ?
+2020-06-05 15:20:25.087 [http-nio-8080-exec-10] DEBUG org.hibernate.SQL - select count(userdto_jp0_.usr_id) as col_0_0_ from j_usr userdto_jp0_
+2020-06-05 15:22:45.546 [http-nio-8080-exec-10] DEBUG org.hibernate.SQL - select * from ( select userdto_jp0_.usr_id as usr_id1_0_, userdto_jp0_.usr_name as usr_name2_0_ from j_usr userdto_jp0_ order by userdto_jp0_.usr_id desc ) where rownum <= ?
+2020-06-05 15:22:45.608 [http-nio-8080-exec-10] DEBUG org.hibernate.SQL - select count(userdto_jp0_.usr_id) as col_0_0_ from j_usr userdto_jp0_
+2020-06-05 15:25:59.193 [http-nio-8080-exec-10] DEBUG org.hibernate.SQL - select * from ( select userdto_jp0_.usr_id as usr_id1_0_, userdto_jp0_.usr_name as usr_name2_0_ from j_usr userdto_jp0_ order by userdto_jp0_.usr_id desc ) where rownum <= ?
+2020-06-05 15:25:59.202 [http-nio-8080-exec-10] DEBUG org.hibernate.SQL - select count(userdto_jp0_.usr_id) as col_0_0_ from j_usr userdto_jp0_
+2020-06-05 15:34:30.174 [http-nio-8080-exec-10] DEBUG org.hibernate.SQL - select * from ( select userdto_jp0_.usr_id as usr_id1_0_, userdto_jp0_.usr_name as usr_name2_0_ from j_usr userdto_jp0_ order by userdto_jp0_.usr_id desc ) where rownum <= ?
+2020-06-05 15:34:30.288 [http-nio-8080-exec-10] DEBUG org.hibernate.SQL - select count(userdto_jp0_.usr_id) as col_0_0_ from j_usr userdto_jp0_
+2020-06-05 15:53:51.014 [http-nio-8080-exec-10] DEBUG org.hibernate.SQL - select * from ( select userdto_jp0_.usr_id as usr_id1_0_, userdto_jp0_.usr_name as usr_name2_0_ from j_usr userdto_jp0_ order by userdto_jp0_.usr_id desc ) where rownum <= ?
+2020-06-05 15:53:51.063 [http-nio-8080-exec-10] DEBUG org.hibernate.SQL - select count(userdto_jp0_.usr_id) as col_0_0_ from j_usr userdto_jp0_

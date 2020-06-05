@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.huiwl.springboot.mapper.UserMapper">
+	<select id="findAll" resultMap="userResultMap">
+		select * from J_USR where GRP_CD = 'Y'
+	</select>
+
+	<select id="findOne" resultMap="userResultMap">
+		select * from J_USR where USR_ID
+		= #{usrId}
+	</select>
+
+	<select id="getCount" resultType="int">
+		select count(*) from J_USR
+	</select>
+
+	<select id="getPage" resultMap="userResultMap">
+		select *
+		from (
+		select rownum
+		rnum, t.*
+		from
+		J_USR t
+		<!-- <if test="${total} != null"> where rownum < #{total} </if> -->
+		order by USR_ID) tmp
+		where
+		tmp.rnum <![CDATA[ >= ]]>
+		#{startRow}
+		and
+		tmp.rnum <![CDATA[ <= ]]>
+		#{endRow}
+	</select>
+
+	<resultMap id="userResultMap" type="UserDto_mybatis">
+		<id property="usrId" column="USR_ID" />
+		<result property="usrName" column="USR_NAME" />
+	</resultMap>
+</mapper>
