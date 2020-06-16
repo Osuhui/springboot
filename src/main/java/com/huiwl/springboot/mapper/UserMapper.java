@@ -21,4 +21,6 @@ public interface UserMapper {
 			@Param("total") int total);
 
 	public List<UserDto_mybatis> getPage(@Param("startRow") int startRow, @Param("endRow") int endRow);
+
+	public int updateUser(@Param("user") UserDto_mybatis user);
 }

@@ -1,5 +1,8 @@
 package com.huiwl.springboot.dto;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
+@JsonIgnoreProperties({ "handler", "hibernateLazyInitializer" })
 public class UserDto_mybatis {
 
 	private String usrId;
@@ -20,6 +23,11 @@ public class UserDto_mybatis {
 
 	public void setUsrName(String usrName) {
 		this.usrName = usrName;
+	}
+
+	@Override
+	public String toString() {
+		return "UserDto_mybatis [usrId=" + usrId + ", usrName=" + usrName + "]";
 	}
 
 }

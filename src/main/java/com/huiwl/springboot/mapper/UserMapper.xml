@@ -34,6 +34,9 @@
 		#{endRow}
 	</select>
 
+	<update id="updateUser">
+		update J_USR set USR_NAME = #{user.usrName} where USR_ID = #{user.usrId}
+	</update>
 	<resultMap id="userResultMap" type="UserDto_mybatis">
 		<id property="usrId" column="USR_ID" />
 		<result property="usrName" column="USR_NAME" />

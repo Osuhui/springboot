@@ -16,9 +16,9 @@ import org.springframework.web.multipart.MultipartFile;
 @Controller
 public class UploadController {
 
-	@RequestMapping("uploadPage")
+	@RequestMapping("/uploadpage")
 	public String uploadPage() {
-		return "uploadPage";
+		return "/upload/uploadpage";
 	}
 
 	@RequestMapping(value = "/upload", method = RequestMethod.POST)
@@ -40,6 +40,6 @@ public class UploadController {
 			return "上传失败," + e.getMessage();
 		}
 
-		return "showImg";
+		return "/upload/showimg";
 	}
 }

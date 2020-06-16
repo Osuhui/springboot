@@ -14,12 +14,13 @@ import com.huiwl.springboot.dao.UserDao;
 import com.huiwl.springboot.dto.UserDto_jpa;
 
 @Controller
+@RequestMapping("/jpa")
 public class UserListJpaController {
 
 	@Autowired
 	private UserDao userDao;
 
-	@RequestMapping("userList_jpa_page")
+	@RequestMapping("/userpage")
 	public String userListFindAll(Model m, @RequestParam(value = "start", defaultValue = "0") int start,
 			@RequestParam(value = "size", defaultValue = "10") int size) throws Exception {
 		start = start < 0 ? 0 : start;
@@ -27,32 +28,34 @@ public class UserListJpaController {
 		Pageable pageable = new PageRequest(start, size, sort);
 		Page<UserDto_jpa> page = userDao.findAll(pageable);
 		m.addAttribute("page", page);
-		return "userList_jpa";
+		return "/jpa/userpage";
 	}
 
-	@RequestMapping("userList_jpa_save")
+	@RequestMapping("/useradd")
 	public String userListInsert(UserDto_jpa user) throws Exception {
-		userDao.save(user);
-		return "redirect:userList_jpa_page";
+		System.out.println("user:" + user);
+//		userDao.save(user);
+		return "redirect:/jpa/userpage";
 	}
 
-	@RequestMapping("userList_jpa_delete")
+	@RequestMapping("/userdelete")
 	public String userListDelete(UserDto_jpa user) throws Exception {
-		userDao.delete(user);
-		return "redirect:userList_jpa_page";
+		System.out.println("user:" + user);
+//		userDao.delete(user);
+		return "redirect:/jpa/userpage";
 	}
 
-	@RequestMapping("userList_jpa_update")
+	@RequestMapping("/userupdate")
 	public String userListUpdate(UserDto_jpa user) throws Exception {
 		userDao.save(user);
-		return "redirect:userList_jpa_page";
+		return "redirect:/jpa/userpage";
 	}
 
-	@RequestMapping("userList_jpa_edit")
+	@RequestMapping("/useredit")
 	public String userListEdit(String usrId, Model m) throws Exception {
 		UserDto_jpa user = userDao.getOne(usrId);
 		m.addAttribute("user", user);
-		return "editUser";
+		return "/jpa/useredit";
 	}
 
 }

@@ -1,0 +1,240 @@
+2020-06-12 12:18:55.267 [restartedMain] INFO  com.huiwl.springboot.Application - Starting Application on huiweilong with PID 1920 (C:\jalan_maven_jdk8\workspace\springboot\target\classes started by huiweilong in C:\jalan_maven_jdk8\workspace\springboot)
+2020-06-12 12:18:55.334 [restartedMain] INFO  com.huiwl.springboot.Application - The following profiles are active: dev
+2020-06-12 12:19:01.110 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-06-12 12:19:01.119 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+2020-06-12 12:19:01.787 [localhost-startStop-1] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-06-12 12:19:01.811 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-06-12 12:19:04.308 [restartedMain] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-06-12 12:19:04.592 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+2020-06-12 12:19:04.597 [restartedMain] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2020-06-12 12:19:04.601 [restartedMain] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2020-06-12 12:19:04.863 [restartedMain] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-06-12 12:19:05.583 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.Oracle9iDialect
+2020-06-12 12:19:07.339 [restartedMain] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2020-06-12 12:19:13.445 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-06-12 12:19:13.499 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-06-12 12:19:13.524 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2020-06-12 12:19:13.748 [restartedMain] INFO  com.huiwl.springboot.Application - Started Application in 19.749 seconds (JVM running for 21.715)
+2020-06-12 12:19:26.312 [http-nio-8080-exec-5] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-06-12 12:19:40.406 [http-nio-8080-exec-9] INFO  o.h.hql.internal.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+2020-06-12 12:20:43.305 [restartedMain] INFO  com.huiwl.springboot.Application - Starting Application on huiweilong with PID 1920 (C:\jalan_maven_jdk8\workspace\springboot\target\classes started by huiweilong in C:\jalan_maven_jdk8\workspace\springboot)
+2020-06-12 12:20:43.306 [restartedMain] INFO  com.huiwl.springboot.Application - The following profiles are active: dev
+2020-06-12 12:20:45.911 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-06-12 12:20:45.912 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+2020-06-12 12:20:46.197 [localhost-startStop-1] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-06-12 12:20:46.204 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-06-12 12:20:46.971 [restartedMain] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-06-12 12:20:46.997 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.Oracle9iDialect
+2020-06-12 12:20:47.069 [restartedMain] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2020-06-12 12:20:49.028 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-06-12 12:20:49.030 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-06-12 12:20:49.033 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2020-06-12 12:20:49.051 [restartedMain] INFO  com.huiwl.springboot.Application - Started Application in 6.072 seconds (JVM running for 117.017)
+2020-06-12 12:20:57.199 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-06-12 12:24:52.639 [restartedMain] INFO  com.huiwl.springboot.Application - Starting Application on huiweilong with PID 13836 (C:\jalan_maven_jdk8\workspace\springboot\target\classes started by huiweilong in C:\jalan_maven_jdk8\workspace\springboot)
+2020-06-12 12:24:52.641 [restartedMain] INFO  com.huiwl.springboot.Application - The following profiles are active: dev
+2020-06-12 12:24:59.123 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-06-12 12:24:59.126 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+2020-06-12 12:24:59.972 [localhost-startStop-1] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-06-12 12:24:59.993 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-06-12 12:25:02.083 [restartedMain] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-06-12 12:25:02.308 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+2020-06-12 12:25:02.312 [restartedMain] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2020-06-12 12:25:02.316 [restartedMain] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2020-06-12 12:25:02.435 [restartedMain] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-06-12 12:25:03.023 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.Oracle9iDialect
+2020-06-12 12:25:04.097 [restartedMain] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2020-06-12 12:25:08.414 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-06-12 12:25:08.437 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-06-12 12:25:08.458 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2020-06-12 12:25:08.599 [restartedMain] INFO  com.huiwl.springboot.Application - Started Application in 17.56 seconds (JVM running for 19.563)
+2020-06-12 12:25:16.918 [http-nio-8080-exec-10] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-06-12 12:25:17.260 [http-nio-8080-exec-10] INFO  o.h.hql.internal.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+2020-06-12 12:26:06.085 [restartedMain] INFO  com.huiwl.springboot.Application - Starting Application on huiweilong with PID 13836 (C:\jalan_maven_jdk8\workspace\springboot\target\classes started by huiweilong in C:\jalan_maven_jdk8\workspace\springboot)
+2020-06-12 12:26:06.090 [restartedMain] INFO  com.huiwl.springboot.Application - The following profiles are active: dev
+2020-06-12 12:26:07.765 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-06-12 12:26:07.766 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+2020-06-12 12:26:08.020 [localhost-startStop-1] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-06-12 12:26:08.031 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-06-12 12:26:08.556 [restartedMain] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-06-12 12:26:08.602 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.Oracle9iDialect
+2020-06-12 12:26:08.655 [restartedMain] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2020-06-12 12:26:10.641 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-06-12 12:26:10.643 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-06-12 12:26:10.645 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2020-06-12 12:26:10.663 [restartedMain] INFO  com.huiwl.springboot.Application - Started Application in 4.753 seconds (JVM running for 81.626)
+2020-06-12 12:26:21.794 [http-nio-8080-exec-3] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-06-12 12:31:10.935 [restartedMain] INFO  com.huiwl.springboot.Application - Starting Application on huiweilong with PID 13504 (C:\jalan_maven_jdk8\workspace\springboot\target\classes started by huiweilong in C:\jalan_maven_jdk8\workspace\springboot)
+2020-06-12 12:31:10.938 [restartedMain] INFO  com.huiwl.springboot.Application - The following profiles are active: dev
+2020-06-12 12:31:17.309 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-06-12 12:31:17.318 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+2020-06-12 12:31:18.250 [localhost-startStop-1] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-06-12 12:31:18.303 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-06-12 12:31:20.475 [restartedMain] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-06-12 12:31:20.692 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+2020-06-12 12:31:20.696 [restartedMain] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2020-06-12 12:31:20.700 [restartedMain] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2020-06-12 12:31:20.818 [restartedMain] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-06-12 12:31:21.309 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.Oracle9iDialect
+2020-06-12 12:31:22.350 [restartedMain] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2020-06-12 12:31:26.574 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-06-12 12:31:26.602 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-06-12 12:31:26.624 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2020-06-12 12:31:27.263 [restartedMain] INFO  com.huiwl.springboot.Application - Started Application in 17.595 seconds (JVM running for 19.516)
+2020-06-12 12:31:51.724 [restartedMain] INFO  com.huiwl.springboot.Application - Starting Application on huiweilong with PID 13504 (C:\jalan_maven_jdk8\workspace\springboot\target\classes started by huiweilong in C:\jalan_maven_jdk8\workspace\springboot)
+2020-06-12 12:31:51.725 [restartedMain] INFO  com.huiwl.springboot.Application - The following profiles are active: dev
+2020-06-12 12:31:53.617 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-06-12 12:31:53.618 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+2020-06-12 12:31:53.910 [localhost-startStop-1] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-06-12 12:31:53.917 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-06-12 12:31:54.417 [restartedMain] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-06-12 12:31:54.464 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.Oracle9iDialect
+2020-06-12 12:31:54.538 [restartedMain] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2020-06-12 12:31:56.132 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-06-12 12:31:56.133 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-06-12 12:31:56.136 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2020-06-12 12:31:56.158 [restartedMain] INFO  com.huiwl.springboot.Application - Started Application in 4.653 seconds (JVM running for 48.41)
+2020-06-12 12:32:03.557 [http-nio-8080-exec-4] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-06-12 12:32:18.531 [http-nio-8080-exec-8] INFO  o.h.hql.internal.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+2020-06-12 12:32:41.815 [restartedMain] INFO  com.huiwl.springboot.Application - Starting Application on huiweilong with PID 13504 (C:\jalan_maven_jdk8\workspace\springboot\target\classes started by huiweilong in C:\jalan_maven_jdk8\workspace\springboot)
+2020-06-12 12:32:41.816 [restartedMain] INFO  com.huiwl.springboot.Application - The following profiles are active: dev
+2020-06-12 12:32:43.889 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-06-12 12:32:43.890 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+2020-06-12 12:32:44.218 [localhost-startStop-1] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-06-12 12:32:44.229 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-06-12 12:32:44.755 [restartedMain] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-06-12 12:32:44.787 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.Oracle9iDialect
+2020-06-12 12:32:44.851 [restartedMain] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2020-06-12 12:32:46.518 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-06-12 12:32:46.521 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-06-12 12:32:46.536 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2020-06-12 12:32:46.574 [restartedMain] INFO  com.huiwl.springboot.Application - Started Application in 4.967 seconds (JVM running for 98.826)
+2020-06-12 12:33:06.644 [http-nio-8080-exec-10] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-06-12 12:33:06.657 [http-nio-8080-exec-10] INFO  o.h.hql.internal.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+2020-06-12 12:34:04.944 [restartedMain] INFO  com.huiwl.springboot.Application - Starting Application on huiweilong with PID 9672 (C:\jalan_maven_jdk8\workspace\springboot\target\classes started by huiweilong in C:\jalan_maven_jdk8\workspace\springboot)
+2020-06-12 12:34:04.945 [restartedMain] INFO  com.huiwl.springboot.Application - The following profiles are active: dev
+2020-06-12 12:34:09.227 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-06-12 12:34:09.230 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+2020-06-12 12:34:09.877 [localhost-startStop-1] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-06-12 12:34:09.895 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-06-12 12:34:11.458 [restartedMain] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-06-12 12:34:11.596 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+2020-06-12 12:34:11.603 [restartedMain] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2020-06-12 12:34:11.605 [restartedMain] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2020-06-12 12:34:11.711 [restartedMain] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-06-12 12:34:11.950 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.Oracle9iDialect
+2020-06-12 12:34:12.923 [restartedMain] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2020-06-12 12:34:17.355 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-06-12 12:34:17.379 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-06-12 12:34:17.394 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2020-06-12 12:34:17.472 [restartedMain] INFO  com.huiwl.springboot.Application - Started Application in 13.557 seconds (JVM running for 14.791)
+2020-06-12 12:34:30.379 [http-nio-8080-exec-10] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-06-12 12:34:30.534 [http-nio-8080-exec-10] INFO  o.h.hql.internal.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+2020-06-12 12:38:51.598 [restartedMain] INFO  com.huiwl.springboot.Application - Starting Application on huiweilong with PID 14228 (C:\jalan_maven_jdk8\workspace\springboot\target\classes started by huiweilong in C:\jalan_maven_jdk8\workspace\springboot)
+2020-06-12 12:38:51.600 [restartedMain] INFO  com.huiwl.springboot.Application - The following profiles are active: dev
+2020-06-12 12:38:55.745 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-06-12 12:38:55.748 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+2020-06-12 12:38:56.363 [localhost-startStop-1] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-06-12 12:38:56.379 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-06-12 12:39:01.066 [restartedMain] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-06-12 12:39:01.226 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+2020-06-12 12:39:01.230 [restartedMain] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2020-06-12 12:39:01.232 [restartedMain] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2020-06-12 12:39:01.319 [restartedMain] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-06-12 12:39:01.517 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.Oracle9iDialect
+2020-06-12 12:39:02.345 [restartedMain] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2020-06-12 12:39:05.154 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-06-12 12:39:05.175 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-06-12 12:39:05.191 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2020-06-12 12:39:05.253 [restartedMain] INFO  com.huiwl.springboot.Application - Started Application in 14.555 seconds (JVM running for 15.473)
+2020-06-12 12:39:10.949 [http-nio-8080-exec-10] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-06-12 12:41:08.542 [restartedMain] INFO  com.huiwl.springboot.Application - Starting Application on huiweilong with PID 14228 (C:\jalan_maven_jdk8\workspace\springboot\target\classes started by huiweilong in C:\jalan_maven_jdk8\workspace\springboot)
+2020-06-12 12:41:08.542 [restartedMain] INFO  com.huiwl.springboot.Application - The following profiles are active: dev
+2020-06-12 12:41:09.927 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-06-12 12:41:09.928 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+2020-06-12 12:41:10.207 [localhost-startStop-1] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-06-12 12:41:10.213 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-06-12 12:41:10.669 [restartedMain] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-06-12 12:41:10.695 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.Oracle9iDialect
+2020-06-12 12:41:10.752 [restartedMain] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2020-06-12 12:41:11.473 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-06-12 12:41:11.475 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-06-12 12:41:11.478 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2020-06-12 12:41:11.492 [restartedMain] INFO  com.huiwl.springboot.Application - Started Application in 3.093 seconds (JVM running for 141.711)
+2020-06-12 12:41:22.988 [http-nio-8080-exec-10] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-06-12 14:05:54.334 [restartedMain] INFO  com.huiwl.springboot.Application - Starting Application on huiweilong with PID 15400 (C:\jalan_maven_jdk8\workspace\springboot\target\classes started by huiweilong in C:\jalan_maven_jdk8\workspace\springboot)
+2020-06-12 14:05:54.335 [restartedMain] INFO  com.huiwl.springboot.Application - The following profiles are active: dev
+2020-06-12 14:05:59.254 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-06-12 14:05:59.258 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+2020-06-12 14:06:00.003 [localhost-startStop-1] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-06-12 14:06:00.013 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-06-12 14:06:01.595 [restartedMain] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-06-12 14:06:01.724 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+2020-06-12 14:06:01.726 [restartedMain] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2020-06-12 14:06:01.729 [restartedMain] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2020-06-12 14:06:01.804 [restartedMain] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-06-12 14:06:02.020 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.Oracle9iDialect
+2020-06-12 14:06:02.912 [restartedMain] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2020-06-12 14:06:05.360 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-06-12 14:06:05.378 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-06-12 14:06:05.399 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2020-06-12 14:06:05.460 [restartedMain] INFO  com.huiwl.springboot.Application - Started Application in 12.089 seconds (JVM running for 13.127)
+2020-06-12 14:06:31.898 [http-nio-8080-exec-10] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-06-12 14:11:19.515 [restartedMain] INFO  com.huiwl.springboot.Application - Starting Application on huiweilong with PID 10552 (C:\jalan_maven_jdk8\workspace\springboot\target\classes started by huiweilong in C:\jalan_maven_jdk8\workspace\springboot)
+2020-06-12 14:11:19.517 [restartedMain] INFO  com.huiwl.springboot.Application - The following profiles are active: dev
+2020-06-12 14:11:23.556 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-06-12 14:11:23.560 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+2020-06-12 14:11:24.132 [localhost-startStop-1] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-06-12 14:11:24.152 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-06-12 14:11:25.873 [restartedMain] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-06-12 14:11:26.126 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+2020-06-12 14:11:26.129 [restartedMain] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2020-06-12 14:11:26.132 [restartedMain] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2020-06-12 14:11:26.204 [restartedMain] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-06-12 14:11:26.411 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.Oracle9iDialect
+2020-06-12 14:11:27.320 [restartedMain] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2020-06-12 14:11:30.134 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-06-12 14:11:30.155 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-06-12 14:11:30.184 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2020-06-12 14:11:30.285 [restartedMain] INFO  com.huiwl.springboot.Application - Started Application in 11.757 seconds (JVM running for 12.708)
+2020-06-12 14:11:38.632 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-06-12 14:13:53.919 [restartedMain] INFO  com.huiwl.springboot.Application - Starting Application on huiweilong with PID 10552 (C:\jalan_maven_jdk8\workspace\springboot\target\classes started by huiweilong in C:\jalan_maven_jdk8\workspace\springboot)
+2020-06-12 14:13:53.919 [restartedMain] INFO  com.huiwl.springboot.Application - The following profiles are active: dev
+2020-06-12 14:13:55.288 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-06-12 14:13:55.290 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+2020-06-12 14:13:55.533 [localhost-startStop-1] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-06-12 14:13:55.539 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-06-12 14:13:56.106 [restartedMain] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-06-12 14:13:56.132 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.Oracle9iDialect
+2020-06-12 14:13:56.191 [restartedMain] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2020-06-12 14:13:57.010 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-06-12 14:13:57.015 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-06-12 14:13:57.027 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2020-06-12 14:13:57.046 [restartedMain] INFO  com.huiwl.springboot.Application - Started Application in 3.275 seconds (JVM running for 159.501)
+2020-06-12 14:14:02.304 [http-nio-8080-exec-10] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'

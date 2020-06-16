@@ -34,4 +34,9 @@ public class UserDto_jpa {
 		this.usrName = usrName;
 	}
 
+	@Override
+	public String toString() {
+		return "UserDto_jpa [usrId=" + usrId + ", usrName=" + usrName + "]";
+	}
+
 }

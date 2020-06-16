@@ -22,8 +22,8 @@
 				<tr>
 					<td>${user.usrId}</td>
 					<td>${user.usrName}</td>
-					<td><a href="userList_jpa_edit?usrId=${user.usrId}">编辑</a></td>
-					<td><a href="userList_jpa_delete?usrId=${user.usrId}">删除</a></td>
+					<td><a href="useredit?usrId=${user.usrId}">编辑</a></td>
+					<td><a href="userdelete?usrId=${user.usrId}">删除</a></td>
 				</tr>
 			</c:forEach>
 		</table>
@@ -35,7 +35,7 @@
 			<a href="?start=${page.totalPages-1}">[末 页]</a>
 		</div>
 		<br>
-		<form action="userList_jpa_save" method="post">
+		<form action="useradd" method="post">
 			name: <input name="usrName"> <br>
 			<button type="submit">提交</button>
 		</form>

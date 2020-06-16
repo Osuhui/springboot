@@ -6,7 +6,7 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>userList</title>
+<title>userList_mybatis</title>
 </head>
 <body>
 	<div align="center"></div>
@@ -22,8 +22,8 @@
 				<tr>
 					<td>${user.usrId}</td>
 					<td>${user.usrName}</td>
-					<td><a href="userList_jpa_edit?usrId=${user.usrId}">编辑</a></td>
-					<td><a href="userList_jpa_delete?usrId=${user.usrId}">删除</a></td>
+					<td><a href="/mybatis/userpage/${user.usrId}">编辑</a></td>
+					<td><a href="/mybatis/userpage/${user.usrId}">删除</a></td>
 				</tr>
 			</c:forEach>
 		</table>
@@ -35,10 +35,6 @@
 			<a href="?start=${page.pages}">[末 页]</a>
 		</div>
 		<br>
-		<form action="userList_jpa_save" method="post">
-			name: <input name="usrName"> <br>
-			<button type="submit">提交</button>
-		</form>
 	</div>
 </body>
 </html>

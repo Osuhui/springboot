@@ -1,12 +1,69 @@
-2020-06-05 15:15:59.574 [http-nio-8080-exec-7] DEBUG org.hibernate.SQL - select * from ( select userdto_jp0_.usr_id as usr_id1_0_, userdto_jp0_.usr_name as usr_name2_0_ from j_usr userdto_jp0_ order by userdto_jp0_.usr_id desc ) where rownum <= ?
-2020-06-05 15:15:59.648 [http-nio-8080-exec-7] DEBUG org.hibernate.SQL - select count(userdto_jp0_.usr_id) as col_0_0_ from j_usr userdto_jp0_
-2020-06-05 15:20:25.070 [http-nio-8080-exec-10] DEBUG org.hibernate.SQL - select * from ( select userdto_jp0_.usr_id as usr_id1_0_, userdto_jp0_.usr_name as usr_name2_0_ from j_usr userdto_jp0_ order by userdto_jp0_.usr_id desc ) where rownum <= ?
-2020-06-05 15:20:25.087 [http-nio-8080-exec-10] DEBUG org.hibernate.SQL - select count(userdto_jp0_.usr_id) as col_0_0_ from j_usr userdto_jp0_
-2020-06-05 15:22:45.546 [http-nio-8080-exec-10] DEBUG org.hibernate.SQL - select * from ( select userdto_jp0_.usr_id as usr_id1_0_, userdto_jp0_.usr_name as usr_name2_0_ from j_usr userdto_jp0_ order by userdto_jp0_.usr_id desc ) where rownum <= ?
-2020-06-05 15:22:45.608 [http-nio-8080-exec-10] DEBUG org.hibernate.SQL - select count(userdto_jp0_.usr_id) as col_0_0_ from j_usr userdto_jp0_
-2020-06-05 15:25:59.193 [http-nio-8080-exec-10] DEBUG org.hibernate.SQL - select * from ( select userdto_jp0_.usr_id as usr_id1_0_, userdto_jp0_.usr_name as usr_name2_0_ from j_usr userdto_jp0_ order by userdto_jp0_.usr_id desc ) where rownum <= ?
-2020-06-05 15:25:59.202 [http-nio-8080-exec-10] DEBUG org.hibernate.SQL - select count(userdto_jp0_.usr_id) as col_0_0_ from j_usr userdto_jp0_
-2020-06-05 15:34:30.174 [http-nio-8080-exec-10] DEBUG org.hibernate.SQL - select * from ( select userdto_jp0_.usr_id as usr_id1_0_, userdto_jp0_.usr_name as usr_name2_0_ from j_usr userdto_jp0_ order by userdto_jp0_.usr_id desc ) where rownum <= ?
-2020-06-05 15:34:30.288 [http-nio-8080-exec-10] DEBUG org.hibernate.SQL - select count(userdto_jp0_.usr_id) as col_0_0_ from j_usr userdto_jp0_
-2020-06-05 15:53:51.014 [http-nio-8080-exec-10] DEBUG org.hibernate.SQL - select * from ( select userdto_jp0_.usr_id as usr_id1_0_, userdto_jp0_.usr_name as usr_name2_0_ from j_usr userdto_jp0_ order by userdto_jp0_.usr_id desc ) where rownum <= ?
-2020-06-05 15:53:51.063 [http-nio-8080-exec-10] DEBUG org.hibernate.SQL - select count(userdto_jp0_.usr_id) as col_0_0_ from j_usr userdto_jp0_
+2020-06-16 09:30:12.415 [http-nio-8080-exec-6] DEBUG com.huiwl.springboot.mapper.UserMapper.findOne - ==>  Preparing: select * from J_USR where USR_ID = ? 
+2020-06-16 09:30:12.450 [http-nio-8080-exec-6] DEBUG com.huiwl.springboot.mapper.UserMapper.findOne - ==> Parameters: Y99999(String)
+2020-06-16 09:30:12.587 [http-nio-8080-exec-6] DEBUG com.huiwl.springboot.mapper.UserMapper.findOne - <==      Total: 1
+2020-06-16 09:33:14.980 [http-nio-8080-exec-6] DEBUG c.huiwl.springboot.mapper.UserMapper.findAll_COUNT - ==>  Preparing: SELECT count(0) FROM J_USR WHERE GRP_CD = 'Y' 
+2020-06-16 09:33:14.982 [http-nio-8080-exec-6] DEBUG c.huiwl.springboot.mapper.UserMapper.findAll_COUNT - ==> Parameters: 
+2020-06-16 09:33:14.991 [http-nio-8080-exec-6] DEBUG c.huiwl.springboot.mapper.UserMapper.findAll_COUNT - <==      Total: 1
+2020-06-16 09:33:14.994 [http-nio-8080-exec-6] DEBUG com.huiwl.springboot.mapper.UserMapper.findAll - ==>  Preparing: select * from ( select tmp_page.*, rownum row_id from ( SELECT * FROM J_USR WHERE GRP_CD = 'Y' order by usr_id desc ) tmp_page where rownum <= ? ) where row_id > ? 
+2020-06-16 09:33:14.994 [http-nio-8080-exec-6] DEBUG com.huiwl.springboot.mapper.UserMapper.findAll - ==> Parameters: 10(Integer), 0(Integer)
+2020-06-16 09:33:15.000 [http-nio-8080-exec-6] DEBUG com.huiwl.springboot.mapper.UserMapper.findAll - <==      Total: 10
+2020-06-16 09:33:18.055 [http-nio-8080-exec-4] DEBUG com.huiwl.springboot.mapper.UserMapper.findOne - ==>  Preparing: select * from J_USR where USR_ID = ? 
+2020-06-16 09:33:18.056 [http-nio-8080-exec-4] DEBUG com.huiwl.springboot.mapper.UserMapper.findOne - ==> Parameters: Y99990(String)
+2020-06-16 09:33:18.063 [http-nio-8080-exec-4] DEBUG com.huiwl.springboot.mapper.UserMapper.findOne - <==      Total: 1
+2020-06-16 09:33:24.249 [http-nio-8080-exec-3] DEBUG com.huiwl.springboot.mapper.UserMapper.findOne - ==>  Preparing: select * from J_USR where USR_ID = ? 
+2020-06-16 09:33:24.250 [http-nio-8080-exec-3] DEBUG com.huiwl.springboot.mapper.UserMapper.findOne - ==> Parameters: Y99990(String)
+2020-06-16 09:33:24.253 [http-nio-8080-exec-3] DEBUG com.huiwl.springboot.mapper.UserMapper.findOne - <==      Total: 1
+2020-06-16 09:37:16.226 [http-nio-8080-exec-5] DEBUG c.huiwl.springboot.mapper.UserMapper.findAll_COUNT - ==>  Preparing: SELECT count(0) FROM J_USR WHERE GRP_CD = 'Y' 
+2020-06-16 09:37:16.227 [http-nio-8080-exec-5] DEBUG c.huiwl.springboot.mapper.UserMapper.findAll_COUNT - ==> Parameters: 
+2020-06-16 09:37:16.237 [http-nio-8080-exec-5] DEBUG c.huiwl.springboot.mapper.UserMapper.findAll_COUNT - <==      Total: 1
+2020-06-16 09:37:16.239 [http-nio-8080-exec-5] DEBUG com.huiwl.springboot.mapper.UserMapper.findAll - ==>  Preparing: select * from ( select tmp_page.*, rownum row_id from ( SELECT * FROM J_USR WHERE GRP_CD = 'Y' order by usr_id desc ) tmp_page where rownum <= ? ) where row_id > ? 
+2020-06-16 09:37:16.240 [http-nio-8080-exec-5] DEBUG com.huiwl.springboot.mapper.UserMapper.findAll - ==> Parameters: 10(Integer), 0(Integer)
+2020-06-16 09:37:16.261 [http-nio-8080-exec-5] DEBUG com.huiwl.springboot.mapper.UserMapper.findAll - <==      Total: 10
+2020-06-16 09:38:03.592 [http-nio-8080-exec-9] DEBUG c.huiwl.springboot.mapper.UserMapper.findAll_COUNT - ==>  Preparing: SELECT count(0) FROM J_USR WHERE GRP_CD = 'Y' 
+2020-06-16 09:38:03.593 [http-nio-8080-exec-9] DEBUG c.huiwl.springboot.mapper.UserMapper.findAll_COUNT - ==> Parameters: 
+2020-06-16 09:38:03.602 [http-nio-8080-exec-9] DEBUG c.huiwl.springboot.mapper.UserMapper.findAll_COUNT - <==      Total: 1
+2020-06-16 09:38:03.604 [http-nio-8080-exec-9] DEBUG com.huiwl.springboot.mapper.UserMapper.findAll - ==>  Preparing: select * from ( select tmp_page.*, rownum row_id from ( SELECT * FROM J_USR WHERE GRP_CD = 'Y' order by usr_id desc ) tmp_page where rownum <= ? ) where row_id > ? 
+2020-06-16 09:38:03.605 [http-nio-8080-exec-9] DEBUG com.huiwl.springboot.mapper.UserMapper.findAll - ==> Parameters: 10(Integer), 0(Integer)
+2020-06-16 09:38:03.612 [http-nio-8080-exec-9] DEBUG com.huiwl.springboot.mapper.UserMapper.findAll - <==      Total: 10
+2020-06-16 09:38:08.050 [http-nio-8080-exec-7] DEBUG com.huiwl.springboot.mapper.UserMapper.findOne - ==>  Preparing: select * from J_USR where USR_ID = ? 
+2020-06-16 09:38:08.050 [http-nio-8080-exec-7] DEBUG com.huiwl.springboot.mapper.UserMapper.findOne - ==> Parameters: Y99996(String)
+2020-06-16 09:38:08.055 [http-nio-8080-exec-7] DEBUG com.huiwl.springboot.mapper.UserMapper.findOne - <==      Total: 1
+2020-06-16 09:38:24.121 [http-nio-8080-exec-6] DEBUG com.huiwl.springboot.mapper.UserMapper.updateUser - ==>  Preparing: update J_USR set USR_NAME = ? where USR_ID = ? 
+2020-06-16 09:38:24.123 [http-nio-8080-exec-6] DEBUG com.huiwl.springboot.mapper.UserMapper.updateUser - ==> Parameters: (String), Y99996(String)
+2020-06-16 09:38:24.131 [http-nio-8080-exec-6] DEBUG com.huiwl.springboot.mapper.UserMapper.updateUser - <==    Updates: 1
+2020-06-16 09:38:24.152 [http-nio-8080-exec-4] DEBUG c.huiwl.springboot.mapper.UserMapper.findAll_COUNT - ==>  Preparing: SELECT count(0) FROM J_USR WHERE GRP_CD = 'Y' 
+2020-06-16 09:38:24.152 [http-nio-8080-exec-4] DEBUG c.huiwl.springboot.mapper.UserMapper.findAll_COUNT - ==> Parameters: 
+2020-06-16 09:38:24.163 [http-nio-8080-exec-4] DEBUG c.huiwl.springboot.mapper.UserMapper.findAll_COUNT - <==      Total: 1
+2020-06-16 09:38:24.165 [http-nio-8080-exec-4] DEBUG com.huiwl.springboot.mapper.UserMapper.findAll - ==>  Preparing: select * from ( select tmp_page.*, rownum row_id from ( SELECT * FROM J_USR WHERE GRP_CD = 'Y' order by usr_id desc ) tmp_page where rownum <= ? ) where row_id > ? 
+2020-06-16 09:38:24.166 [http-nio-8080-exec-4] DEBUG com.huiwl.springboot.mapper.UserMapper.findAll - ==> Parameters: 10(Integer), 0(Integer)
+2020-06-16 09:38:24.170 [http-nio-8080-exec-4] DEBUG com.huiwl.springboot.mapper.UserMapper.findAll - <==      Total: 10
+2020-06-16 09:38:29.088 [http-nio-8080-exec-3] DEBUG com.huiwl.springboot.mapper.UserMapper.findOne - ==>  Preparing: select * from J_USR where USR_ID = ? 
+2020-06-16 09:38:29.088 [http-nio-8080-exec-3] DEBUG com.huiwl.springboot.mapper.UserMapper.findOne - ==> Parameters: Y99996(String)
+2020-06-16 09:38:29.092 [http-nio-8080-exec-3] DEBUG com.huiwl.springboot.mapper.UserMapper.findOne - <==      Total: 1
+2020-06-16 09:38:32.154 [http-nio-8080-exec-2] DEBUG com.huiwl.springboot.mapper.UserMapper.updateUser - ==>  Preparing: update J_USR set USR_NAME = ? where USR_ID = ? 
+2020-06-16 09:38:32.155 [http-nio-8080-exec-2] DEBUG com.huiwl.springboot.mapper.UserMapper.updateUser - ==> Parameters: 1234(String), Y99996(String)
+2020-06-16 09:38:32.162 [http-nio-8080-exec-2] DEBUG com.huiwl.springboot.mapper.UserMapper.updateUser - <==    Updates: 1
+2020-06-16 09:38:32.175 [http-nio-8080-exec-1] DEBUG c.huiwl.springboot.mapper.UserMapper.findAll_COUNT - ==>  Preparing: SELECT count(0) FROM J_USR WHERE GRP_CD = 'Y' 
+2020-06-16 09:38:32.176 [http-nio-8080-exec-1] DEBUG c.huiwl.springboot.mapper.UserMapper.findAll_COUNT - ==> Parameters: 
+2020-06-16 09:38:32.184 [http-nio-8080-exec-1] DEBUG c.huiwl.springboot.mapper.UserMapper.findAll_COUNT - <==      Total: 1
+2020-06-16 09:38:32.186 [http-nio-8080-exec-1] DEBUG com.huiwl.springboot.mapper.UserMapper.findAll - ==>  Preparing: select * from ( select tmp_page.*, rownum row_id from ( SELECT * FROM J_USR WHERE GRP_CD = 'Y' order by usr_id desc ) tmp_page where rownum <= ? ) where row_id > ? 
+2020-06-16 09:38:32.187 [http-nio-8080-exec-1] DEBUG com.huiwl.springboot.mapper.UserMapper.findAll - ==> Parameters: 10(Integer), 0(Integer)
+2020-06-16 09:38:32.190 [http-nio-8080-exec-1] DEBUG com.huiwl.springboot.mapper.UserMapper.findAll - <==      Total: 10
+2020-06-16 09:50:34.241 [http-nio-8080-exec-10] DEBUG c.huiwl.springboot.mapper.UserMapper.findAll_COUNT - ==>  Preparing: SELECT count(0) FROM J_USR WHERE GRP_CD = 'Y' 
+2020-06-16 09:50:34.263 [http-nio-8080-exec-10] DEBUG c.huiwl.springboot.mapper.UserMapper.findAll_COUNT - ==> Parameters: 
+2020-06-16 09:50:34.288 [http-nio-8080-exec-10] DEBUG c.huiwl.springboot.mapper.UserMapper.findAll_COUNT - <==      Total: 1
+2020-06-16 09:50:34.296 [http-nio-8080-exec-10] DEBUG com.huiwl.springboot.mapper.UserMapper.findAll - ==>  Preparing: select * from ( select tmp_page.*, rownum row_id from ( SELECT * FROM J_USR WHERE GRP_CD = 'Y' order by usr_id desc ) tmp_page where rownum <= ? ) where row_id > ? 
+2020-06-16 09:50:34.301 [http-nio-8080-exec-10] DEBUG com.huiwl.springboot.mapper.UserMapper.findAll - ==> Parameters: 10(Integer), 0(Integer)
+2020-06-16 09:50:34.309 [http-nio-8080-exec-10] DEBUG com.huiwl.springboot.mapper.UserMapper.findAll - <==      Total: 10
+2020-06-16 09:50:37.615 [http-nio-8080-exec-9] DEBUG com.huiwl.springboot.mapper.UserMapper.findOne - ==>  Preparing: select * from J_USR where USR_ID = ? 
+2020-06-16 09:50:37.617 [http-nio-8080-exec-9] DEBUG com.huiwl.springboot.mapper.UserMapper.findOne - ==> Parameters: Y99996(String)
+2020-06-16 09:50:37.621 [http-nio-8080-exec-9] DEBUG com.huiwl.springboot.mapper.UserMapper.findOne - <==      Total: 1
+2020-06-16 09:50:44.726 [http-nio-8080-exec-7] DEBUG com.huiwl.springboot.mapper.UserMapper.updateUser - ==>  Preparing: update J_USR set USR_NAME = ? where USR_ID = ? 
+2020-06-16 09:50:44.727 [http-nio-8080-exec-7] DEBUG com.huiwl.springboot.mapper.UserMapper.updateUser - ==> Parameters: (String), Y99996(String)
+2020-06-16 09:50:44.782 [http-nio-8080-exec-7] DEBUG com.huiwl.springboot.mapper.UserMapper.updateUser - <==    Updates: 1
+2020-06-16 09:50:44.798 [http-nio-8080-exec-6] DEBUG c.huiwl.springboot.mapper.UserMapper.findAll_COUNT - ==>  Preparing: SELECT count(0) FROM J_USR WHERE GRP_CD = 'Y' 
+2020-06-16 09:50:44.798 [http-nio-8080-exec-6] DEBUG c.huiwl.springboot.mapper.UserMapper.findAll_COUNT - ==> Parameters: 
+2020-06-16 09:50:44.807 [http-nio-8080-exec-6] DEBUG c.huiwl.springboot.mapper.UserMapper.findAll_COUNT - <==      Total: 1
+2020-06-16 09:50:44.810 [http-nio-8080-exec-6] DEBUG com.huiwl.springboot.mapper.UserMapper.findAll - ==>  Preparing: select * from ( select tmp_page.*, rownum row_id from ( SELECT * FROM J_USR WHERE GRP_CD = 'Y' order by usr_id desc ) tmp_page where rownum <= ? ) where row_id > ? 
+2020-06-16 09:50:44.811 [http-nio-8080-exec-6] DEBUG com.huiwl.springboot.mapper.UserMapper.findAll - ==> Parameters: 10(Integer), 0(Integer)
+2020-06-16 09:50:44.819 [http-nio-8080-exec-6] DEBUG com.huiwl.springboot.mapper.UserMapper.findAll - <==      Total: 10
